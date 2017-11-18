@@ -1,4 +1,4 @@
-def valid_move?
+def valid_move?(board, index)
  board[index] == between?(0 , 8)
 
  def position_taken?(board, index)
